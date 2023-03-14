@@ -26,7 +26,7 @@ console.log(findWords(dog_string))
 /*Write a function that takes in an array and removes every even index with a splice,
 and replaces it with the string "even index" */
 
-arr = ["Max", "Baseball", "Reboot", "Goku", "Trucks", "Rodger"]
+let arr = ["Max", "Baseball", "Reboot", "Goku", "Trucks", "Rodger"]
 
 function replaceEvens(arr) {
     //code goes here

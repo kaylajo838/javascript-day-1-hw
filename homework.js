@@ -8,15 +8,17 @@ let dog_names = ["Max", "HAS", "PuRple", "dog"]
 
 function findWords(string) {
     //Your code goes here
+    let new_list = []
     // loop through dog_names array
     for(let names of dog_names) {
         // check if the string includes the names in the array
         if (string.includes(names)){
-            return `Matched ${names}`
+            new_list.push(`Matched ${names}`)
         } else {
-            return 'No Match'
+            new_list.push('No Match')
         }
     }
+    return new_list
 }
 
 //Call method here with parameters
